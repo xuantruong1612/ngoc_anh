@@ -15,7 +15,7 @@ tasks=(
 )
 
 # Loop for ... days
-for (( i=3; i<=50; i++ )); do
+for (( i=1; i<=100; i+=3 )); do
     # Determine if it's a commit day or not (60% chance of a commit)
     commit_day=$((RANDOM % 10))
     if [ $commit_day -lt 9 ]; then
