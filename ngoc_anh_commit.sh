@@ -20,7 +20,7 @@ for (( i=3; i<=50; i++ )); do
     commit_day=$((RANDOM % 10))
     if [ $commit_day -lt 9 ]; then
         # Determine the number of commits for this day
-        num_commits=3
+        num_commits=15
         # On random days, make more than one commit
         if [ $((RANDOM % 5)) -eq 0 ]; then
             num_commits=$((RANDOM % 9 + 7))  # Make 2 or 3 commits
