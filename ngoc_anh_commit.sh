@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Start date y/m/d
-start_date="2024-08-25"
+start_date="2024-09-25"
 current_date=$start_date
 last_date=$start_date
 
@@ -15,7 +15,7 @@ tasks=(
 )
 
 # Loop for ... days
-for (( i=1; i<=100; i+=3 )); do
+for (( i=1; i<=200; i+=5 )); do
     # Determine if it's a commit day or not (60% chance of a commit)
     commit_day=$((RANDOM % 10))
     if [ $commit_day -lt 9 ]; then
