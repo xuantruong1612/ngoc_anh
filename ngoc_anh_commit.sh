@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Start date y/m/d
-start_date="2024-09-25"
+start_date="2025-01-1"
 current_date=$start_date
 last_date=$start_date
 
