@@ -1,2 +1,2 @@
 Task 5: Writing a random number
-6379
+22630
