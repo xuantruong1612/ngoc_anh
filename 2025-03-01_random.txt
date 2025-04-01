@@ -1,2 +1,2 @@
 Task 5: Writing a random number
-20353
+31992
